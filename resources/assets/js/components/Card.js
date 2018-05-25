@@ -16,8 +16,8 @@ export default class Card extends Component {
                {console.log(card_data)}
                 <div className="row justify-content-center">
                     <div className="col-md-8">                    
-                        <div className="card">
-                            <div className="card-header">
+                        <div className="card card-holder">
+                            <div className={"card-header "+card_data.monster_types[0].toLowerCase()}>
                                 <div className="row header-title">
                                     <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10">
                                         <h3 className="h3-title">{card_data.name}</h3>
@@ -27,7 +27,7 @@ export default class Card extends Component {
                                     </div>
                                 </div>    
                             </div>
-                            <div className="card-body">
+                            <div className={"card-body "+card_data.monster_types[0].toLowerCase()}>
                                 <div className="text-right">
                                      {this.getLevel(card_data.stars)}
 
@@ -35,12 +35,15 @@ export default class Card extends Component {
                                 <div className="text-center">
                                     <img className="img-responsive" src={card_data.image_path}></img>
                                 </div>
-                                <div className="col-xs-12">
-                                    <p>[{card_data.species} / {card_data.monster_types[0]}]</p>
-                                    <i> {card_data.text}</i>
-                                </div>
-                                <div className="col-xs-12 text-right">
-                                    <p><span>ATK / {card_data.attack}</span><span> DEF / {card_data.defense}</span></p>
+                                <div className={"description "+card_data.monster_types[0].toLowerCase()}>
+                                    <div className="col-xs-12">
+                                        <h4>[{card_data.species} / {card_data.monster_types[0]}]</h4>
+                                        <i> {card_data.text}</i>
+                                    </div>
+                                    <hr></hr>
+                                    <div className="col-xs-12 text-right">
+                                        <strong><span>ATK / {card_data.attack}</span><span> DEF / {card_data.defense}</span></strong>
+                                    </div>
                                 </div>
                             </div>
 

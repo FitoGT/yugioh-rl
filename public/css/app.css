@@ -10429,8 +10429,9 @@ a.text-dark:focus {
 }
 
 .img-level {
-  height: 20px;
-  width: 20px;
+  height: 22px;
+  width: 25px;
+  margin-left: 4px;
 }
 
 .h3-title {
@@ -10439,7 +10440,63 @@ a.text-dark:focus {
 
 .header-title {
   border: 4px solid rgba(78, 91, 104, 0.15);
-  -webkit-box-shadow: 2px 5px 5px 0px rgba(73, 80, 87, 0.36);
-          box-shadow: 2px 5px 5px 0px rgba(73, 80, 87, 0.36);
+  -webkit-box-shadow: 2px 5px 5px 0px rgba(73, 80, 87, 0.15);
+          box-shadow: 2px 5px 5px 0px rgba(73, 80, 87, 0.15);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-header {
+  border: none;
+}
+
+.description {
+  margin-top: 30px;
+  border: solid #983831;
+  padding: 10px;
+}
+
+.card.card-holder {
+  border: 15px solid rgba(33, 37, 41, 0.69);
+}
+
+hr {
+  border-top: 1px solid black;
+}
+
+.card-body.normal,
+.card-header.normal {
+  background-color: #daaa5a;
+}
+
+.description.normal {
+  background-color: #faf6d0;
+}
+
+.card-body.effect,
+.card-header.effect {
+  background-color: #b5775f;
+}
+
+.description.effect {
+  background-color: #ecd9ca;
+}
+
+.card-body.fusion,
+.card-header.fusion {
+  background-color: #9f76b8;
+}
+
+.description.fusion {
+  background-color: #c2a9cf;
+}
+
+.card-body.ritual,
+.card-header.ritual {
+  background-color: #5b82ab;
+}
+
+.description.ritual {
+  background-color: #bcd2e5;
 }
 
