@@ -12,7 +12,7 @@ export default class Card extends Component {
     }
 
     componentWillMount(){
-     axios.get('http://localhost/reactravel/public/api/card').then(response => {
+     axios.get('http://localhost/yugioh/public/api/card').then(response => {
        this.setState({
             card:response.data
        })
@@ -23,7 +23,7 @@ export default class Card extends Component {
            return (
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-md-12">                    
+                    <div className="col-md-8">                    
                         <div className="card">
                             <div className="card-header">
                                 <div className="row">

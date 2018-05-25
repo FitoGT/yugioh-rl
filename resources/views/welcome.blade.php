@@ -9,12 +9,18 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link href="css/app.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <!-- Styles -->
 
     </head>
     <body>
+        <nav class="navbar navbar-light bg-light justify-content-between">
+          <a class="navbar-brand"><img class="logo-img" src="images/logo.png"></a>
+          
+        </nav>
+        <div id="search"></div>
         <div id="card"></div>
         <script src="js/app.js" type="text/javascript"></script>
     </body>
