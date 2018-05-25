@@ -36294,8 +36294,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_axios__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -36307,13 +36305,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-
 var Card = function (_Component) {
     _inherits(Card, _Component);
 
     function Card() {
-        var _this;
-
         _classCallCheck(this, Card);
 
         var _this = _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).call(this));
@@ -36321,25 +36316,13 @@ var Card = function (_Component) {
         _this.state = {
             card: []
         };
-        console.log((_this = _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).call(this)), _this));
         return _this;
     }
 
     _createClass(Card, [{
-        key: 'componentWillMount',
-        value: function componentWillMount() {
-            var _this2 = this;
-
-            __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('http://localhost/yugioh/public/api/card').then(function (response) {
-                _this2.setState({
-                    card: response.data
-                });
-            });
-        }
-    }, {
         key: 'render',
         value: function render() {
-            if (this.state.card.data) {
+            if (this.props.value.data) {
                 return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'div',
                     { className: 'container' },
@@ -36364,7 +36347,7 @@ var Card = function (_Component) {
                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                 'span',
                                                 null,
-                                                this.state.card.data.name
+                                                this.props.value.data.name
                                             )
                                         ),
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -36373,7 +36356,7 @@ var Card = function (_Component) {
                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                 'span',
                                                 { className: 'pull-right' },
-                                                this.state.card.data.family
+                                                this.props.value.data.family
                                             )
                                         )
                                     )
@@ -36393,14 +36376,14 @@ var Card = function (_Component) {
                                             'p',
                                             null,
                                             '[',
-                                            this.state.card.data.type,
+                                            this.props.value.data.type,
                                             ']'
                                         ),
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             'i',
                                             null,
                                             ' ',
-                                            this.state.card.data.text
+                                            this.props.value.data.text
                                         )
                                     ),
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -36413,21 +36396,20 @@ var Card = function (_Component) {
                                                 'span',
                                                 null,
                                                 'ATK / ',
-                                                this.state.card.data.atk
+                                                this.props.value.data.atk
                                             ),
                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                 'span',
                                                 null,
                                                 ' DEF / ',
-                                                this.state.card.data.def
+                                                this.props.value.data.def
                                             )
                                         )
                                     )
                                 )
                             )
                         )
-                    ),
-                    console.log(this.state.card.data)
+                    )
                 );
             } else {
                 return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'container' });
@@ -36439,11 +36421,6 @@ var Card = function (_Component) {
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Card);
-
-
-if (document.getElementById('card')) {
-    __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Card, null), document.getElementById('card'));
-}
 
 /***/ }),
 /* 44 */
@@ -55732,6 +55709,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_axios__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Card__ = __webpack_require__(43);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -55744,18 +55722,26 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+
 var Search = function (_Component) {
     _inherits(Search, _Component);
 
-    function Search() {
+    function Search(props) {
         _classCallCheck(this, Search);
 
-        return _possibleConstructorReturn(this, (Search.__proto__ || Object.getPrototypeOf(Search)).apply(this, arguments));
+        var _this = _possibleConstructorReturn(this, (Search.__proto__ || Object.getPrototypeOf(Search)).call(this, props));
+
+        _this.state = {
+            data: []
+        };
+        return _this;
     }
 
     _createClass(Search, [{
         key: 'render',
         value: function render() {
+            var _this2 = this;
+
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 { className: 'container' },
@@ -55771,13 +55757,33 @@ var Search = function (_Component) {
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { className: 'form-control', placeholder: 'Search your card', type: 'text', id: 'card-text' }),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'button',
-                                { className: 'btn btn-success' },
+                                { className: 'btn btn-success', onClick: function onClick() {
+                                        return _this2.getCard();
+                                    } },
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-search' })
                             )
                         )
                     )
-                )
+                ),
+                this.drawCard()
             );
+        }
+    }, {
+        key: 'getCard',
+        value: function getCard() {
+            var _this3 = this;
+
+            var card = document.getElementById('card-text').value;
+            __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('http://localhost/yugioh/public/api/card/' + card).then(function (response) {
+                _this3.setState({
+                    data: response.data
+                });
+            });
+        }
+    }, {
+        key: 'drawCard',
+        value: function drawCard() {
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Card__["default"], { value: this.state.data });
         }
     }]);
 
