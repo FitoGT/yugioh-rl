@@ -7,17 +7,27 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+body {
+   background-image: url("http://localhost/yugioh/public/images/fondo.png"); 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 
+.list-inline{
+	margin-right: 25px;
+}
+.form-group{
+	padding:10px;
+}
 .logo-img{
 	height: 50px;
     width: 125px;
 }
-
+.search-btn{
+	width:100px;
+}
 .attr-image{
 	height: 50px;
 	width: 50px;

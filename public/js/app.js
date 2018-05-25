@@ -36554,7 +36554,7 @@ var Search = function (_Component) {
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { className: 'form-control', placeholder: 'Search your card', type: 'text', id: 'card-text' }),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'button',
-                                { className: 'btn btn-success', onClick: function onClick() {
+                                { className: 'btn btn-lg btn-dark search-btn', onClick: function onClick() {
                                         return _this2.getCard();
                                     } },
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-search' })

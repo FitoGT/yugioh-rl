@@ -18,7 +18,7 @@ export default class Search extends Component {
                     <div className="form-group">
                       <div className="input-group">
                         <input className="form-control" placeholder="Search your card" type="text" id="card-text"></input>
-                        <button className="btn btn-success" onClick={() => this.getCard()}><i className="fa fa-search"></i></button>
+                        <button className="btn btn-lg btn-dark search-btn" onClick={() => this.getCard()}><i className="fa fa-search"></i></button>
                       </div>
                     </div>
                 </div>

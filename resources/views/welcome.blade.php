@@ -16,7 +16,7 @@
 
     </head>
     <body>
-        <nav class="navbar navbar-light bg-light justify-content-between">
+        <nav class="navbar navbar-dark bg-dark justify-content-between">
           <a class="navbar-brand"><img class="logo-img" src="images/logo.png"></a>
           
         </nav>
