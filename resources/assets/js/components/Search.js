@@ -30,9 +30,9 @@ export default class Search extends Component {
     
     getCard(){
      let card = document.getElementById('card-text').value
-     axios.get('http://localhost/yugioh/public/api/card/'+card).then(response => {
+     axios.get('api/card/'+card).then(response => {
        this.setState({
-            data:response.data
+            data:response
        })
      })
     }

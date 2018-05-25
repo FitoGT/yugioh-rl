@@ -36323,9 +36323,11 @@ var Card = function (_Component) {
         key: 'render',
         value: function render() {
             if (this.props.value.data) {
+                var card_data = this.props.value.data.card;
                 return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'div',
                     { className: 'container' },
+                    console.log(card_data),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
                         { className: 'row justify-content-center' },
@@ -36347,7 +36349,7 @@ var Card = function (_Component) {
                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                 'span',
                                                 null,
-                                                this.props.value.data.name
+                                                card_data.name
                                             )
                                         ),
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -36356,7 +36358,7 @@ var Card = function (_Component) {
                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                 'span',
                                                 { className: 'pull-right' },
-                                                this.props.value.data.family
+                                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'attr-image', src: 'images/' + card_data.attribute + '.png' })
                                             )
                                         )
                                     )
@@ -36366,8 +36368,17 @@ var Card = function (_Component) {
                                     { className: 'card-body' },
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         'div',
+                                        { className: 'text-right' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'p',
+                                            null,
+                                            card_data.stars
+                                        )
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'div',
                                         { className: 'text-center' },
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'img-responsive', src: 'http://uploads2.yugioh.com/card_images/257/detail/Dark-Magician.jpg?1375127294' })
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'img-responsive', src: card_data.image_path })
                                     ),
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         'div',
@@ -36376,14 +36387,16 @@ var Card = function (_Component) {
                                             'p',
                                             null,
                                             '[',
-                                            this.props.value.data.type,
+                                            card_data.species,
+                                            ' / ',
+                                            card_data.monster_types[0],
                                             ']'
                                         ),
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             'i',
                                             null,
                                             ' ',
-                                            this.props.value.data.text
+                                            card_data.text
                                         )
                                     ),
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -36396,13 +36409,13 @@ var Card = function (_Component) {
                                                 'span',
                                                 null,
                                                 'ATK / ',
-                                                this.props.value.data.atk
+                                                card_data.attack
                                             ),
                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                 'span',
                                                 null,
                                                 ' DEF / ',
-                                                this.props.value.data.def
+                                                card_data.defense
                                             )
                                         )
                                     )
@@ -55774,9 +55787,9 @@ var Search = function (_Component) {
             var _this3 = this;
 
             var card = document.getElementById('card-text').value;
-            __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('http://localhost/yugioh/public/api/card/' + card).then(function (response) {
+            __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('api/card/' + card).then(function (response) {
                 _this3.setState({
-                    data: response.data
+                    data: response
                 });
             });
         }

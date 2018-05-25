@@ -10422,3 +10422,8 @@ a.text-dark:focus {
   width: 125px;
 }
 
+.attr-image {
+  height: 50px;
+  width: 50px;
+}
+

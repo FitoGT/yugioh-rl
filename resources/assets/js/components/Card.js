@@ -10,31 +10,36 @@ export default class Card extends Component {
     }
     render() {
         if(this.props.value.data){
+            let card_data = this.props.value.data.card;
            return (
             <div className="container">
+               {console.log(card_data)}
                 <div className="row justify-content-center">
                     <div className="col-md-8">                    
                         <div className="card">
                             <div className="card-header">
                                 <div className="row">
                                     <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                                        <span>{this.props.value.data.name}</span>
+                                        <span>{card_data.name}</span>
                                     </div>
                                     <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                                        <span className="pull-right">{ this.props.value.data.family }</span>
+                                        <span className="pull-right"><img className="attr-image" src={'images/'+card_data.attribute+'.png'}></img></span>
                                     </div>
                                 </div>    
                             </div>
                             <div className="card-body">
+                                <div className="text-right">
+                                    <p>{card_data.stars}</p>
+                                </div>
                                 <div className="text-center">
-                                    <img className="img-responsive" src="http://uploads2.yugioh.com/card_images/257/detail/Dark-Magician.jpg?1375127294"></img>
+                                    <img className="img-responsive" src={card_data.image_path}></img>
                                 </div>
                                 <div className="col-xs-12">
-                                    <p>[{this.props.value.data.type}]</p>
-                                    <i> {this.props.value.data.text}</i>
+                                    <p>[{card_data.species} / {card_data.monster_types[0]}]</p>
+                                    <i> {card_data.text}</i>
                                 </div>
                                 <div className="col-xs-12 text-right">
-                                    <p><span>ATK / {this.props.value.data.atk}</span><span> DEF / {this.props.value.data.def}</span></p>
+                                    <p><span>ATK / {card_data.attack}</span><span> DEF / {card_data.defense}</span></p>
                                 </div>
                             </div>
 
