@@ -57,6 +57,11 @@ export default class Card extends Component {
         }else{
             return (
                 <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 text-center">
+                            <img className="img-responsive card-back" src="images/back.jpg"></img>
+                        </div>
+                    </div>
                 </div>
             )
         }

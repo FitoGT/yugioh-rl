@@ -14234,7 +14234,19 @@ var Card = function (_Component) {
                     )
                 );
             } else {
-                return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'container' });
+                return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'container' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'row' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'div',
+                            { className: 'col-md-12 text-center' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'img-responsive card-back', src: 'images/back.jpg' })
+                        )
+                    )
+                );
             }
         }
     }, {
