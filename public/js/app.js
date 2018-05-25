@@ -36342,13 +36342,13 @@ var Card = function (_Component) {
                                     { className: 'card-header' },
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         'div',
-                                        { className: 'row' },
+                                        { className: 'row header-title' },
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             'div',
                                             { className: 'col-xs-10 col-sm-10 col-md-10 col-lg-10' },
                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                                'span',
-                                                null,
+                                                'h3',
+                                                { className: 'h3-title' },
                                                 card_data.name
                                             )
                                         ),

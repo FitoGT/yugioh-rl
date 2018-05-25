@@ -18,9 +18,9 @@ export default class Card extends Component {
                     <div className="col-md-8">                    
                         <div className="card">
                             <div className="card-header">
-                                <div className="row">
+                                <div className="row header-title">
                                     <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                                        <span>{card_data.name}</span>
+                                        <h3 className="h3-title">{card_data.name}</h3>
                                     </div>
                                     <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
                                         <span className="pull-right"><img className="attr-image" src={'images/'+card_data.attribute+'.png'}></img></span>
