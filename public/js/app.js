@@ -36369,11 +36369,7 @@ var Card = function (_Component) {
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         'div',
                                         { className: 'text-right' },
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'p',
-                                            null,
-                                            card_data.stars
-                                        )
+                                        this.getLevel(card_data.stars)
                                     ),
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         'div',
@@ -36427,6 +36423,19 @@ var Card = function (_Component) {
             } else {
                 return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'container' });
             }
+        }
+    }, {
+        key: 'getLevel',
+        value: function getLevel(stars) {
+            var img = [];
+            _.times(stars, function (i) {
+                img.push(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'img-level', src: 'images/level.png', key: i }));
+            });
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'ul',
+                { className: 'list-inline' },
+                img
+            );
         }
     }]);
 

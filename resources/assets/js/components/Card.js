@@ -29,7 +29,8 @@ export default class Card extends Component {
                             </div>
                             <div className="card-body">
                                 <div className="text-right">
-                                    <p>{card_data.stars}</p>
+                                     {this.getLevel(card_data.stars)}
+
                                 </div>
                                 <div className="text-center">
                                     <img className="img-responsive" src={card_data.image_path}></img>
@@ -58,4 +59,20 @@ export default class Card extends Component {
         }
         
     }
+
+    getLevel(stars){
+        let img = [];
+        _.times(stars, (i) => {
+            img.push(<img className="img-level" src="images/level.png" key={i}></img>);
+        });
+        return(
+
+           <ul className="list-inline">
+               {img}           
+           </ul> 
+                                   
+        )
+    }
+
+
 }
