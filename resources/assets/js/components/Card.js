@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import store from '../store';
 
 export default class Card extends Component {
     constructor (){
@@ -7,15 +8,23 @@ export default class Card extends Component {
         this.state = {
             card:[]
         }
+        store.subscribe(()=>
+          this.setState({
+            card:store.getState().card
+          })
+        )
+        {console.log(super())}
+
     }
     render() {
-        if(this.props.value.data){
-            let card_data = this.props.value.data.card;
+
+        if(this.state.card.data){
+            let card_data = this.state.card.data.card;
            return (
             <div className="container">
                {console.log(card_data)}
                 <div className="row justify-content-center">
-                    <div className="col-md-8">                    
+                    <div className="col-md-8">
                         <div className="card card-holder">
                             <div className={"card-header "+card_data.monster_types[0].toLowerCase()}>
                                 <div className="row header-title">
@@ -25,7 +34,7 @@ export default class Card extends Component {
                                     <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
                                         <span className="pull-right"><img className="attr-image" src={'images/'+card_data.attribute+'.png'}></img></span>
                                     </div>
-                                </div>    
+                                </div>
                             </div>
                             <div className={"card-body "+card_data.monster_types[0].toLowerCase()}>
                                 <div className="text-right">
@@ -50,10 +59,10 @@ export default class Card extends Component {
                         </div>
                     </div>
                 </div>
-                
-            
+
+
             </div>
-        ); 
+        );
         }else{
             return (
                 <div className="container">
@@ -65,7 +74,7 @@ export default class Card extends Component {
                 </div>
             )
         }
-        
+
     }
 
     getLevel(stars){
@@ -76,9 +85,9 @@ export default class Card extends Component {
         return(
 
            <ul className="list-inline">
-               {img}           
-           </ul> 
-                                   
+               {img}
+           </ul>
+
         )
     }
 

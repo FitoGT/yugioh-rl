@@ -2,15 +2,16 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 import Card from './Card';
+import store from '../store';
 
 export default class Search extends Component {
-    
+
     constructor(props) {
     super(props);
     this.state = {
       data: []
     };
-  }    
+  }
     render() {
         return (
             <div className="container">
@@ -27,18 +28,23 @@ export default class Search extends Component {
 
         );
     }
-    
+
     getCard(){
      let card = document.getElementById('card-text').value
-     axios.get('api/card/'+card).then(response => {
-       this.setState({
-            data:response
+     //axios.get('api/card/'+card).then(response => {
+     axios.get('json/response.json').then(response => {
+       store.dispatch({
+         type:"GET_CARD",
+         data:response
        })
+       // this.setState({
+       //      data:response
+       // })
      })
     }
 
     drawCard(){
-        return <Card value={this.state.data}/>
+        return <Card />
     }
 
 }

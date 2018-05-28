@@ -1,0 +1,1378 @@
+{
+  "status": "success",
+  "card": {
+    "name": "Dark Magician",
+    "image_path": "https://pm1.narvii.com/6301/1732a8eb1fddb2f994a0111c32137b2635f30fd0_hq.jpg",
+    "thumbnail_path": "https://ygohub.com/card_images/59c00270572ff.jpg",
+    "text": "The ultimate wizard in terms of attack and defense.",
+    "type": "Monster",
+    "number": "46986414",
+    "price_low": "0.12",
+    "price_avg": "0.83",
+    "price_high": "606.98",
+    "tcgplayer_link": "http://shop.tcgplayer.com/yugioh/product/show?productname=Dark+Magician&partner=YGOHub",
+    "is_monster": true,
+    "is_spell": false,
+    "is_illegal": false,
+    "is_trap": false,
+    "has_name_condition": false,
+    "species": "Spellcaster",
+    "monster_types": [
+      "Normal"
+    ],
+    "attack": "2500",
+    "defense": "2100",
+    "stars": "7",
+    "attribute": "DARK",
+    "is_pendulum": false,
+    "is_xyz": false,
+    "is_synchro": false,
+    "is_fusion": false,
+    "is_link": false,
+    "is_extra_deck": false,
+    "has_materials": false,
+    "legality": {
+      "TCG": {
+        "Advanced": "Unlimited",
+        "Traditional": "Unlimited"
+      },
+      "OCG": {
+        "Advanced": "Unlimited"
+      }
+    },
+    "releases": {
+      "OCG": {
+        "Vol.1": {
+          "Japanese": {
+            "set_number": "Unknown",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "1999-02-04"
+          }
+        },
+        "EX Starter Box": {
+          "Japanese": {
+            "set_number": "",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "1999-12-16"
+          }
+        },
+        "Legend of Blue Eyes White Dragon": {
+          "Japanese": {
+            "set_number": "LB-05",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2000-05-18"
+          },
+          "Asian-English": {
+            "set_number": "LOB-005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-08-08"
+          },
+          "Korean": {
+            "set_number": "LOB-K005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2003-12-09"
+          }
+        },
+        "EX-R Starter Box": {
+          "Japanese": {
+            "set_number": "EX-06",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2000-11-23"
+          }
+        },
+        "Premium Pack 4": {
+          "Japanese": {
+            "set_number": "P4-02",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2001-01-18"
+          }
+        },
+        "Structure Deck: Yugi": {
+          "Japanese": {
+            "set_number": "YU-15",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2001-06-28"
+          }
+        },
+        "Labyrinth of Nightmare": {
+          "Japanese": {
+            "set_number": "LN-53",
+            "rarities": [
+              "Ultimate Rare"
+            ],
+            "date": "2001-07-21"
+          }
+        },
+        "Duelist Legacy Volume.2": {
+          "Japanese": {
+            "set_number": "DL2-005",
+            "rarities": [
+              "Ultra Rare",
+              "Ultra Parallel Rare"
+            ],
+            "date": "2002-08-22"
+          }
+        },
+        "Structure Deck: Yugi Volume 2": {
+          "Japanese": {
+            "set_number": "SY2-002",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2003-05-22"
+          }
+        },
+        "Starter Deck: Yugi": {
+          "Korean": {
+            "set_number": "SDY-K006",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2003-12-09"
+          }
+        },
+        "Beginner's Edition 1": {
+          "Japanese": {
+            "set_number": "BE1-JP102",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2004-06-24"
+          },
+          "Korean": {
+            "set_number": "BP1-KR102",
+            "rarities": [
+              "Unknown"
+            ],
+            "date": "2006-04-11"
+          }
+        },
+        "Starter Deck: Yugi Evolution": {
+          "Korean": {
+            "set_number": "SYE-KR001",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2005-04-12"
+          }
+        },
+        "Structure Deck: Spellcaster's Judgment": {
+          "Japanese": {
+            "set_number": "SD6-JP003",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2005-09-22"
+          },
+          "Korean": {
+            "set_number": "SD6-KR003",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2007-06-16"
+          }
+        },
+        "Duel Terminal - Synchro Awakening!!": {
+          "Japanese": {
+            "set_number": "DT01-JP002",
+            "rarities": [
+              "Unknown"
+            ],
+            "date": "2008-04-12"
+          }
+        },
+        "Premium Pack Vol.1": {
+          "Korean": {
+            "set_number": "PP01-KR017",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2008-11-20"
+          }
+        },
+        "Weekly Shōnen Jump 2009, Issue 3 promotional card": {
+          "Japanese": {
+            "set_number": "WJMP-JP012",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2008-12-15"
+          }
+        },
+        "Movie Pack Vol.2": {
+          "Korean": {
+            "set_number": "MOV-KR005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2010-01-28"
+          }
+        },
+        "Beginner's Edition 1 (2011)": {
+          "Japanese": {
+            "set_number": "BE01-JP092",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2011-05-14"
+          }
+        },
+        "Memories of the Duel King: Duelist Kingdom Arc": {
+          "Japanese": {
+            "set_number": "15AY-JPA03",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2014-03-08"
+          }
+        },
+        "Memories of the Duel King: Battle City Arc": {
+          "Japanese": {
+            "set_number": "15AY-JPB02",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2014-07-05"
+          }
+        },
+        "Memories of the Duel King: Ceremonial Battle": {
+          "Japanese": {
+            "set_number": "15AY-JPC09",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2014-08-23"
+          }
+        },
+        "The Rarity Collection": {
+          "Japanese": {
+            "set_number": "TRC1-JP001",
+            "rarities": [
+              "Extra Secret Rare"
+            ],
+            "date": "2014-12-20"
+          }
+        },
+        "Duelist Road -Piece of Memory- Side: Yami Yugi": {
+          "Japanese": {
+            "set_number": "15AX-JPY01",
+            "rarities": [
+              "Secret Rare",
+              "Millennium Rare"
+            ],
+            "date": "2015-01-10"
+          }
+        },
+        "Saikyō Jump March 2015": {
+          "Japanese": {
+            "set_number": "SJMP-JP002",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2015-02-06"
+          }
+        },
+        "Duelist Pack: Battle City": {
+          "Japanese": {
+            "set_number": "DP16-JP008",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2015-06-06"
+          },
+          "Korean": {
+            "set_number": "DP16-KR008",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2016-06-16"
+          }
+        },
+        "World Championship 2015": {
+          "Asian-English": {
+            "set_number": "2015-JPP02",
+            "rarities": [
+              "Millennium Rare"
+            ],
+            "date": "2015-08-16"
+          }
+        },
+        "Millennium Box Gold Edition": {
+          "Japanese": {
+            "set_number": "MB01-JP010",
+            "rarities": [
+              "Millennium Rare"
+            ],
+            "date": "2015-11-15"
+          }
+        },
+        "Yu-Gi-Oh! The Dark Side of Dimensions Theater distribution cards": {
+          "Korean": {
+            "set_number": "MVPC-KR005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-06-09"
+          }
+        },
+        "Structure Deck: Yugi Muto": {
+          "Japanese": {
+            "set_number": "SDMY-JP010",
+            "rarities": [
+              "Normal Parallel Rare"
+            ],
+            "date": "2016-06-18"
+          },
+          "Korean": {
+            "set_number": "SDMY-KR010",
+            "rarities": [
+              "Normal Parallel Rare"
+            ],
+            "date": "2016-09-09"
+          }
+        },
+        "20th Anniversary Pack 2nd Wave": {
+          "Japanese": {
+            "set_number": "20AP-JP101",
+            "rarities": [
+              "Unknown"
+            ],
+            "date": "2017-02-11"
+          }
+        },
+        "Yu-Gi-Oh! Duel Links Legend Deck Guide: Yami Yugi VS Seto Kaiba": {
+          "Japanese": {
+            "set_number": "LG01-JP001",
+            "rarities": [
+              "Normal Parallel Rare"
+            ],
+            "date": "2017-06-02"
+          }
+        }
+      },
+      "TCG": {
+        "Legend of Blue Eyes White Dragon": {
+          "English (eu)": {
+            "set_number": "LOB-E003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-08"
+          },
+          "English (na)": {
+            "set_number": "LOB-005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-08"
+          },
+          "French": {
+            "set_number": "LDD-F003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-08"
+          },
+          "German": {
+            "set_number": "LOB-G003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-08"
+          },
+          "Italian": {
+            "set_number": "LDD-I003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-08"
+          },
+          "Spanish": {
+            "set_number": "LDD-S005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-08"
+          },
+          "French (ca)": {
+            "set_number": "LDD-C005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2003-07-26"
+          },
+          "English (world)": {
+            "set_number": "LOB-EN005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2004-12-01"
+          }
+        },
+        "Yu-Gi-Oh! Dark Duel Stories": {
+          "English (na)": {
+            "set_number": "DDS-002",
+            "rarities": [
+              "Prismatic Secret Rare"
+            ],
+            "date": "2002-03-19"
+          }
+        },
+        "Starter Deck: Yugi": {
+          "English (na)": {
+            "set_number": "SDY-006",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-29"
+          },
+          "French": {
+            "set_number": "DDY-F005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-29"
+          },
+          "German": {
+            "set_number": "SDY-G005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-29"
+          },
+          "Italian": {
+            "set_number": "MIY-I005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-29"
+          },
+          "Spanish": {
+            "set_number": "BIY-S006",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-29"
+          },
+          "French (ca)": {
+            "set_number": "DDY-C006",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2003-07-26"
+          }
+        },
+        "Promotional Pack": {
+          "Spanish": {
+            "set_number": "BIY-S006",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2002-03-29"
+          }
+        },
+        "Yu-Gi-Oh! Power of Chaos: Yugi the Destiny": {
+          "English (na)": {
+            "set_number": "PCY-004",
+            "rarities": [
+              "Prismatic Secret Rare"
+            ],
+            "date": "2003-11-18"
+          },
+          "French": {
+            "set_number": "PCY-F004",
+            "rarities": [
+              "Prismatic Secret Rare"
+            ],
+            "date": "2003-11-28"
+          },
+          "German": {
+            "set_number": "PCY-G004",
+            "rarities": [
+              "Prismatic Secret Rare"
+            ],
+            "date": "2003-11-28"
+          },
+          "Italian": {
+            "set_number": "PCY-I004",
+            "rarities": [
+              "Prismatic Secret Rare"
+            ],
+            "date": "2003-11-28"
+          }
+        },
+        "Starter Deck: Yugi Evolution": {
+          "English (na)": {
+            "set_number": "SYE-001",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2004-03-01"
+          },
+          "French": {
+            "set_number": "SYE-FR001",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2004-03-01"
+          },
+          "German": {
+            "set_number": "SYE-DE001",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2004-03-01"
+          },
+          "Italian": {
+            "set_number": "SYE-IT001",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2004-03-01"
+          },
+          "Spanish": {
+            "set_number": "SYE-SP001",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2004-03-01"
+          }
+        },
+        "Dark Beginning 1": {
+          "English (na)": {
+            "set_number": "DB1-EN102",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2004-10-12"
+          },
+          "Spanish": {
+            "set_number": "DB1-SP102",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2004-12-01"
+          },
+          "German": {
+            "set_number": "DB1-DE102",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2004-12-17"
+          }
+        },
+        "Forbidden Legacy": {
+          "English (world)": {
+            "set_number": "FL1-EN002",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2005-10-01"
+          }
+        },
+        "Structure Deck: Spellcaster's Judgment": {
+          "English (na)": {
+            "set_number": "SD6-EN003",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2006-01-18"
+          },
+          "French": {
+            "set_number": "SD6-FR003",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2006-01-18"
+          },
+          "German": {
+            "set_number": "SD6-DE003",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2006-01-18"
+          },
+          "Italian": {
+            "set_number": "SD6-IT003",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2006-01-18"
+          }
+        },
+        "Retro Pack": {
+          "English (eu)": {
+            "set_number": "RP01-EN003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2008-07-08"
+          },
+          "French": {
+            "set_number": "RP01-FR003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2008-07-08"
+          },
+          "German": {
+            "set_number": "RP01-DE003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2008-07-08"
+          },
+          "Italian": {
+            "set_number": "RP01-IT003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2008-07-08"
+          }
+        },
+        "Duel Terminal - Preview": {
+          "English (na)": {
+            "set_number": "DTP1-EN002",
+            "rarities": [
+              "Duel Terminal Rare Parallel Rare"
+            ],
+            "date": "2008-07-27"
+          }
+        },
+        "Duel Terminal - Preview Wave 1": {
+          "English (na)": {
+            "set_number": "DTP1-EN002",
+            "rarities": [
+              "Duel Terminal Normal Parallel Rare"
+            ],
+            "date": "2008-08-04"
+          }
+        },
+        "Dark Legends": {
+          "English (na)": {
+            "set_number": "DLG1-EN004",
+            "rarities": [
+              "Rare"
+            ],
+            "date": "2008-11-21"
+          }
+        },
+        "Duel Terminal - Preview Wave 2": {
+          "English (na)": {
+            "set_number": "DTP1-EN002",
+            "rarities": [
+              "Duel Terminal Rare Parallel Rare"
+            ],
+            "date": "2009-06-20"
+          }
+        },
+        "Duelist Pack: Yugi": {
+          "English (na)": {
+            "set_number": "DPYG-EN001",
+            "rarities": [
+              "Rare"
+            ],
+            "date": "2009-07-07"
+          },
+          "English (eu)": {
+            "set_number": "DPYG-EN001",
+            "rarities": [
+              "Rare"
+            ],
+            "date": "2009-07-11"
+          },
+          "English (oc)": {
+            "set_number": "DPYG-EN001",
+            "rarities": [
+              "Rare"
+            ],
+            "date": "2009-07-11"
+          }
+        },
+        "Duel Terminal 1": {
+          "English (na)": {
+            "set_number": "DT01-EN002",
+            "rarities": [
+              "Duel Terminal Rare Parallel Rare"
+            ],
+            "date": "2010-01-29"
+          }
+        },
+        "Legendary Collection": {
+          "German": {
+            "set_number": "LC01-DE005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2010-09-30"
+          },
+          "Italian": {
+            "set_number": "LC01-IT005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2010-09-30"
+          },
+          "English (eu)": {
+            "set_number": "LC01-EN005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2010-10-01"
+          },
+          "English (oc)": {
+            "set_number": "LC01-EN005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2010-10-01"
+          },
+          "English (na)": {
+            "set_number": "LC01-EN005",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2010-10-05"
+          }
+        },
+        "Duelist League 2": {
+          "English (eu)": {
+            "set_number": "DL11-EN001",
+            "rarities": [
+              "Rare"
+            ],
+            "date": "2010-12-01"
+          },
+          "English (na)": {
+            "set_number": "DL11-EN001",
+            "rarities": [
+              "Rare"
+            ],
+            "date": "2010-12-01"
+          }
+        },
+        "Shonen Jump Vol. 9, Issue 4 promotional card": {
+          "English (na)": {
+            "set_number": "JUMP-EN049",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2011-04-01"
+          }
+        },
+        "Legendary Collection 3: Yugi's World Mega Pack": {
+          "French": {
+            "set_number": "LCYW-FR001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2012-09-27"
+          },
+          "German": {
+            "set_number": "LCYW-DE001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2012-09-27"
+          },
+          "Italian": {
+            "set_number": "LCYW-IT001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2012-09-27"
+          },
+          "Spanish": {
+            "set_number": "LCYW-SP001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2012-09-27"
+          },
+          "English (eu)": {
+            "set_number": "LCYW-EN001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2012-09-29"
+          },
+          "English (oc)": {
+            "set_number": "LCYW-EN001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2012-09-29"
+          },
+          "English (na)": {
+            "set_number": "LCYW-EN001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2012-10-02"
+          },
+          "Spanish (lat-am)": {
+            "set_number": "LCYW-SP001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2012-10-02"
+          }
+        },
+        "Legendary Collection: Gameboard Edition": {
+          "Spanish (lat-am)": {
+            "set_number": "LC01-EN005",
+            "rarities": [
+              "Unknown"
+            ],
+            "date": "2013-11-15"
+          }
+        },
+        "Starter Deck: Yugi Reloaded": {
+          "French": {
+            "set_number": "YSYR-FR001",
+            "rarities": [
+              "Common",
+              "Ultimate Rare"
+            ],
+            "date": "2013-12-05"
+          },
+          "German": {
+            "set_number": "YSYR-DE001",
+            "rarities": [
+              "Common",
+              "Ultimate Rare"
+            ],
+            "date": "2013-12-05"
+          },
+          "Italian": {
+            "set_number": "YSYR-IT001",
+            "rarities": [
+              "Common",
+              "Ultimate Rare"
+            ],
+            "date": "2013-12-05"
+          },
+          "Spanish": {
+            "set_number": "YSYR-SP001",
+            "rarities": [
+              "Common",
+              "Ultimate Rare"
+            ],
+            "date": "2013-12-05"
+          },
+          "English (eu)": {
+            "set_number": "YSYR-EN001",
+            "rarities": [
+              "Common",
+              "Ultimate Rare"
+            ],
+            "date": "2013-12-06"
+          },
+          "English (na)": {
+            "set_number": "YSYR-EN001",
+            "rarities": [
+              "Common",
+              "Ultimate Rare"
+            ],
+            "date": "2013-12-06"
+          },
+          "English (oc)": {
+            "set_number": "YSYR-EN001",
+            "rarities": [
+              "Common",
+              "Ultimate Rare"
+            ],
+            "date": "2013-12-06"
+          },
+          "Portuguese": {
+            "set_number": "YSYR-PT001",
+            "rarities": [
+              "Common",
+              "Ultimate Rare"
+            ],
+            "date": "2013-12-06"
+          },
+          "Spanish (lat-am)": {
+            "set_number": "YSYR-SP001",
+            "rarities": [
+              "Common",
+              "Ultimate Rare"
+            ],
+            "date": "2013-12-06"
+          }
+        },
+        "Duelist Pack: Battle City": {
+          "English (na)": {
+            "set_number": "DPBC-EN008",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2015-06-19"
+          },
+          "Spanish (lat-am)": {
+            "set_number": "DPBC-SP008",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2015-06-19"
+          },
+          "English (eu)": {
+            "set_number": "DPBC-EN008",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2015-12-10"
+          },
+          "English (oc)": {
+            "set_number": "DPBC-EN008",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2015-12-10"
+          },
+          "French": {
+            "set_number": "DPBC-FR008",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2015-12-10"
+          },
+          "German": {
+            "set_number": "DPBC-DE008",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2015-12-10"
+          },
+          "Italian": {
+            "set_number": "DPBC-IT008",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2015-12-10"
+          },
+          "Portuguese": {
+            "set_number": "DPBC-PT008",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2015-12-10"
+          },
+          "Spanish": {
+            "set_number": "DPBC-SP008",
+            "rarities": [
+              "Super Rare"
+            ],
+            "date": "2015-12-10"
+          }
+        },
+        "Yugi's Legendary Decks": {
+          "English (na)": {
+            "set_number": "YGLD-ENA03",
+            "rarities": [
+              "Common",
+              "Ultra Rare"
+            ],
+            "date": "2015-11-13"
+          },
+          "Spanish (lat-am)": {
+            "set_number": "YGLD-ENA03",
+            "rarities": [
+              "Common",
+              "Ultra Rare"
+            ],
+            "date": "2015-11-13"
+          }
+        },
+        "WSJ Jump Pack Fall 2016 promotional card ": {
+          "English (na)": {
+            "set_number": "JMPS-EN003 ",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-07-01"
+          }
+        },
+        "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack": {
+          "English (eu)": {
+            "set_number": "MVP1-EN054",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-07-21"
+          },
+          "English (oc)": {
+            "set_number": "MVP1-EN054",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-07-21"
+          },
+          "French": {
+            "set_number": "MVP1-FR054",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-07-21"
+          },
+          "German": {
+            "set_number": "MVP1-DE054",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-07-21"
+          },
+          "Italian": {
+            "set_number": "MVP1-IT054",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-07-21"
+          },
+          "Spanish": {
+            "set_number": "MVP1-SP054",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-07-21"
+          },
+          "English (na)": {
+            "set_number": "MVP1-EN054",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-07-22"
+          },
+          "Portuguese": {
+            "set_number": "MVP1-PT054",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-07-22"
+          },
+          "Spanish (lat-am)": {
+            "set_number": "MVP1-SP054",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-07-22"
+          }
+        },
+        "2016 Mega-Tins": {
+          "English (eu)": {
+            "set_number": "CT13-EN003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-09-01"
+          },
+          "English (oc)": {
+            "set_number": "CT13-EN003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-09-01"
+          },
+          "French": {
+            "set_number": "CT13-FR003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-09-01"
+          },
+          "German": {
+            "set_number": "CT13-DE003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-09-01"
+          },
+          "Italian": {
+            "set_number": "CT13-IT003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-09-01"
+          },
+          "Spanish": {
+            "set_number": "CT13-SP003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-09-01"
+          },
+          "English (na)": {
+            "set_number": "CT13-EN003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-09-02"
+          },
+          "Portuguese": {
+            "set_number": "CT13-PT003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-09-02"
+          },
+          "Spanish (lat-am)": {
+            "set_number": "CT13-SP003",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2016-09-02"
+          }
+        },
+        "Legendary Decks II": {
+          "English (na)": {
+            "set_number": "LDK2-ENY10",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2016-10-07"
+          },
+          "Spanish (lat-am)": {
+            "set_number": "LDK2-ENY10",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2016-10-07"
+          }
+        },
+        "Structure Deck: Yugi Muto": {
+          "English (eu)": {
+            "set_number": "SDMY-EN010",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2016-10-20"
+          },
+          "English (oc)": {
+            "set_number": "SDMY-EN010",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2016-10-20"
+          },
+          "French": {
+            "set_number": "SDMY-FR010",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2016-10-20"
+          },
+          "German": {
+            "set_number": "SDMY-DE010",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2016-10-20"
+          },
+          "Italian": {
+            "set_number": "SDMY-IT010",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2016-10-20"
+          },
+          "Spanish": {
+            "set_number": "SDMY-SP010",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2016-10-20"
+          },
+          "English (na)": {
+            "set_number": "SDMY-EN010",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2016-10-21"
+          },
+          "Portuguese": {
+            "set_number": "SDMY-PT010",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2016-10-21"
+          },
+          "Spanish (lat-am)": {
+            "set_number": "SDMY-SP010",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2016-10-21"
+          }
+        },
+        "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack: Gold Edition": {
+          "English (eu)": {
+            "set_number": "MVP1-ENGV3",
+            "rarities": [
+              "Gold Rare",
+              "Gold Secret Rare"
+            ],
+            "date": "2017-01-12"
+          },
+          "English (oc)": {
+            "set_number": "MVP1-ENGV3",
+            "rarities": [
+              "Gold Rare",
+              "Gold Secret Rare"
+            ],
+            "date": "2017-01-12"
+          },
+          "French": {
+            "set_number": "MVP1-FRGV3",
+            "rarities": [
+              "Gold Rare",
+              "Gold Secret Rare"
+            ],
+            "date": "2017-01-12"
+          },
+          "German": {
+            "set_number": "MVP1-DEGV3",
+            "rarities": [
+              "Gold Rare",
+              "Gold Secret Rare"
+            ],
+            "date": "2017-01-12"
+          },
+          "Italian": {
+            "set_number": "MVP1-ITGV3",
+            "rarities": [
+              "Gold Rare",
+              "Gold Secret Rare"
+            ],
+            "date": "2017-01-12"
+          },
+          "Spanish": {
+            "set_number": "MVP1-SPGV3",
+            "rarities": [
+              "Gold Rare",
+              "Gold Secret Rare"
+            ],
+            "date": "2017-01-12"
+          },
+          "English (na)": {
+            "set_number": "MVP1-ENGV3",
+            "rarities": [
+              "Gold Rare",
+              "Gold Secret Rare"
+            ],
+            "date": "2017-01-13"
+          },
+          "Spanish (lat-am)": {
+            "set_number": "MVP1-SPGV3",
+            "rarities": [
+              "Gold Rare",
+              "Gold Secret Rare"
+            ],
+            "date": "2017-01-13"
+          },
+          "Portuguese": {
+            "set_number": "MVP1-PTGV3",
+            "rarities": [
+              "Gold Rare",
+              "Gold Secret Rare"
+            ],
+            "date": "2017-02-10"
+          }
+        },
+        "Duelist Saga": {
+          "English (na)": {
+            "set_number": "DUSA-EN100",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2017-03-31"
+          }
+        },
+        "2017 Mega-Tins": {
+          "English (eu)": {
+            "set_number": "CT14-EN001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2017-08-24"
+          },
+          "English (oc)": {
+            "set_number": "CT14-EN001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2017-08-24"
+          },
+          "French": {
+            "set_number": "CT14-FR001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2017-08-24"
+          },
+          "German": {
+            "set_number": "CT14-DE001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2017-08-24"
+          },
+          "Italian": {
+            "set_number": "CT14-IT001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2017-08-24"
+          },
+          "Spanish": {
+            "set_number": "CT14-SP001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2017-08-24"
+          },
+          "English (na)": {
+            "set_number": "CT14-EN001",
+            "rarities": [
+              "Secret Rare"
+            ],
+            "date": "2017-08-25"
+          }
+        },
+        "Yugi's Collector Box": {
+          "English (na)": {
+            "set_number": "YUCB-EN001",
+            "rarities": [
+              "Ultra Rare"
+            ],
+            "date": "2017-09-15"
+          }
+        },
+        "Legendary Dragon Decks": {
+          "English (na)": {
+            "set_number": "LEDD-ENA01",
+            "rarities": [
+              "Common"
+            ],
+            "date": "2017-10-06"
+          }
+        }
+      }
+    }
+  }
+}
