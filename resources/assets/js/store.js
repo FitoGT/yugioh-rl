@@ -4,7 +4,8 @@ const reducer = (state,action) =>{
   if(action.type === "GET_CARD"){
     return{
       ...state,
-      card:action.data
+      card:action.data,
+      loading: action.loading
     }
   }
   return state;

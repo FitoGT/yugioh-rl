@@ -6,19 +6,31 @@ export default class Card extends Component {
     constructor (){
         super();
         this.state = {
-            card:[]
+            card:[],
+            loading:false
         }
         store.subscribe(()=>
           this.setState({
-            card:store.getState().card
+            card:store.getState().card,
+            loading:store.getState().loading
           })
         )
-        {console.log(super())}
 
     }
     render() {
-
-        if(this.state.card.data){
+      console.log(this.state.loading);
+        if(this.state.loading==true && !this.state.card.data){
+          return (
+              <div className="container">
+                  <div className="row">
+                      <div className="col-md-12 text-center">
+                          <img className="img-responsive card-back" src="images/cargando.gif"></img>
+                      </div>
+                  </div>
+              </div>
+          )
+        }
+        if(this.state.card.data && this.state.loading==false){
             let card_data = this.state.card.data.card;
            return (
             <div className="container">

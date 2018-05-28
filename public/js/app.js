@@ -14124,18 +14124,15 @@ var Card = function (_Component) {
         var _this = _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).call(this));
 
         _this.state = {
-            card: []
+            card: [],
+            loading: false
         };
         __WEBPACK_IMPORTED_MODULE_2__store__["a" /* default */].subscribe(function () {
             return _this.setState({
-                card: __WEBPACK_IMPORTED_MODULE_2__store__["a" /* default */].getState().card
+                card: __WEBPACK_IMPORTED_MODULE_2__store__["a" /* default */].getState().card,
+                loading: __WEBPACK_IMPORTED_MODULE_2__store__["a" /* default */].getState().loading
             });
         });
-        {
-            var _this;
-
-            console.log((_this = _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).call(this)), _this));
-        }
 
         return _this;
     }
@@ -14143,8 +14140,23 @@ var Card = function (_Component) {
     _createClass(Card, [{
         key: 'render',
         value: function render() {
-
-            if (this.state.card.data) {
+            console.log(this.state.loading);
+            if (this.state.loading == true && !this.state.card.data) {
+                return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'container' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'row' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'div',
+                            { className: 'col-md-12 text-center' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'img-responsive card-back', src: 'images/cargando.gif' })
+                        )
+                    )
+                );
+            }
+            if (this.state.card.data && this.state.loading == false) {
                 var card_data = this.state.card.data.card;
                 return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'div',
@@ -36597,11 +36609,17 @@ var Search = function (_Component) {
         key: 'getCard',
         value: function getCard() {
             var card = document.getElementById('card-text').value;
+            __WEBPACK_IMPORTED_MODULE_4__store__["a" /* default */].dispatch({
+                type: "GET_CARD",
+                data: [],
+                loading: true
+            });
             //axios.get('api/card/'+card).then(response => {
             __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('json/response.json').then(function (response) {
                 __WEBPACK_IMPORTED_MODULE_4__store__["a" /* default */].dispatch({
                     type: "GET_CARD",
-                    data: response
+                    data: response,
+                    loading: false
                 });
                 // this.setState({
                 //      data:response
@@ -55156,7 +55174,8 @@ var reducer = function reducer(state, action) {
 
   if (action.type === "GET_CARD") {
     return _extends({}, state, {
-      card: action.data
+      card: action.data,
+      loading: action.loading
     });
   }
   return state;

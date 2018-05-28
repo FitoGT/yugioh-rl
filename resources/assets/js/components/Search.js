@@ -31,11 +31,17 @@ export default class Search extends Component {
 
     getCard(){
      let card = document.getElementById('card-text').value
+     store.dispatch({
+       type:"GET_CARD",
+       data:[],
+       loading:true
+     });
      //axios.get('api/card/'+card).then(response => {
      axios.get('json/response.json').then(response => {
        store.dispatch({
          type:"GET_CARD",
-         data:response
+         data:response,
+         loading:false
        })
        // this.setState({
        //      data:response
