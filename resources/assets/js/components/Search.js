@@ -36,8 +36,8 @@ export default class Search extends Component {
        data:[],
        loading:true
      });
-     //axios.get('api/card/'+card).then(response => {
-     axios.get('json/response.json').then(response => {
+     axios.get('api/card/'+card).then(response => {
+     //axios.get('json/response.json').then(response => {
        store.dispatch({
          type:"GET_CARD",
          data:response,
