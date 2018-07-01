@@ -46,11 +46,17 @@ body {
 .h3-title{
 	padding: 10px;
 }
+.h3-title.trap,.h3-title.spell {
+    color: white;
+}
 .header-title{
 	border: 4px solid rgba(78, 91, 104, 0.15);
     box-shadow: 2px 5px 5px 0px rgba(73, 80, 87, 0.15);
     width: 100%;
     margin: 0 auto;	
+}
+.header-title.trap,.header-title.spell{
+    box-shadow: 2px 2px 5px 4px rgba(252, 253, 255, 0.15);
 }
 
 .card-header{
@@ -92,4 +98,18 @@ hr{
 }
 .description.ritual{
 	background-color: $ritual-color-description;
+}
+
+.card-body.trap,.card-header.trap{
+	background-color:$trap-color;
+}
+.description.trap{
+	background-color: $trap-color-description;
+}
+
+.card-body.spell,.card-header.spell{
+	background-color:$spell-color;
+}
+.description.spell{
+	background-color: $spell-color-description;
 }

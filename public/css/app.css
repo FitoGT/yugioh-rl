@@ -10453,12 +10453,23 @@ body {
   padding: 10px;
 }
 
+.h3-title.trap,
+.h3-title.spell {
+  color: white;
+}
+
 .header-title {
   border: 4px solid rgba(78, 91, 104, 0.15);
   -webkit-box-shadow: 2px 5px 5px 0px rgba(73, 80, 87, 0.15);
           box-shadow: 2px 5px 5px 0px rgba(73, 80, 87, 0.15);
   width: 100%;
   margin: 0 auto;
+}
+
+.header-title.trap,
+.header-title.spell {
+  -webkit-box-shadow: 2px 2px 5px 4px rgba(252, 253, 255, 0.15);
+          box-shadow: 2px 2px 5px 4px rgba(252, 253, 255, 0.15);
 }
 
 .card-header {
@@ -10513,5 +10524,23 @@ hr {
 
 .description.ritual {
   background-color: #bcd2e5;
+}
+
+.card-body.trap,
+.card-header.trap {
+  background-color: #a60972;
+}
+
+.description.trap {
+  background-color: #e3cbd4;
+}
+
+.card-body.spell,
+.card-header.spell {
+  background-color: #066973;
+}
+
+.description.spell {
+  background-color: #a0d1d5;
 }
 
